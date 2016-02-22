@@ -1,0 +1,45 @@
+#button_container {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+button {
+	width: 150px;
+	height: 40px;
+	color: black;
+}
+
+#grid_container {
+	overflow: auto;
+	width: 960px;
+	margin: auto;
+}
+
+.grid_square {
+	background-color: black;
+	float: left;
+	border: 1px solid white;
+}
+
+.grid_square_lit {
+	background-color: red;
+}
+
+.new_row {
+	clear: both;
+}
+
+#start1 {
+	background-color: blue;
+	float: left;
+}
+
+#start2 {
+	margin-top: 10px;
+}
+
+#start3 {
+	float: right;
+	border-radius: 100%;
+}
